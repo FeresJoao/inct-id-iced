@@ -1,24 +1,21 @@
-# Site do INCT ID-ICED — protótipo v1 (outubro de 2026)
+# Site do INCT ID-ICED — protótipo v2 (outubro de 2026)
 
-Pacote offline-first: abre por duplo clique em `index.html` (funciona sem internet — fontes e logos são locais).
-`robots noindex` ativo enquanto protótipo.
+Multi-página offline-first: abre por duplo clique em `index.html` (fontes e logos locais; `robots noindex` enquanto protótipo).
 
-## Arquivos
-- `index.html` — página única (8 seções + painel de pendências no topo)
-- `styles.css` · `app.js` · `tokens.json`
-- `assets/` — fontes OFL (Manrope, Source Sans 3), logos oficiais do kit INCT ID-ICED v1.0, favicon, logo IESP
+## Páginas
+- `index.html` — home: hero, eixos + diagrama da matriz, destaques das pesquisas, convite
+- `sobre.html` — apresentação, trajetória (INCT IDDC), rede institucional, financiamento
+- `pesquisas.html` — métodos + frentes (A Cara da Democracia, OBSERVA-RJ, MDP) + linhas previstas
+- `equipe.html` — coordenação, Conselho Gestor (com papéis nos eixos), 16 pesquisadores nacionais, 20 internacionais
+- `divulgacao.html` — canais do plano de divulgação científica
+- `contato.html` — coordenação e sede
+- `styles.css` · `app.js` · `tokens.json` · `assets/` (fontes OFL, logos do kit v1.0, favicon, logo IESP, og-image)
 
 ## Fonte do conteúdo
-Tudo ancorado nos documentos do projeto: "Projeto ID-ICED enviado.pdf" (submissão CNPq, Chamada 46/2024), "Resumo do projeto_INCT ID.docx" e "Equipe_INCT_ID-ICED.xlsx" (pasta INCT_ID_ICED). Nenhum dado inventado; o que depende de decisão editorial está marcado no painel de pendências.
+Tudo ancorado na submissão CNPq (Chamada 46/2024), resumo e planilha de equipe da pasta `INCT_ID_ICED` — nenhum dado inventado. Ajustes da coordenação aplicados: Carolina Almeida de Paula (IESP-UERJ/LEMEP) na equipe de pesquisadores; LAProtesta fora do site.
 
-## Painel de pendências (topo)
-4 pendências em aberto + 18 rascunhos em revisão (chips laranja "rascunho · revisão"). Cada item é clicável e leva ao bloco correspondente. Pendências principais:
-- **LAProtesta** — escopo/descrição a definir
-- **Contato** — e-mail institucional dedicado + redes oficiais
-- **Logos oficiais** dos financiadores (CNPq, CAPES, FAPERJ, MCTI) — hoje como chips tipográficos
-- **Domínio/hospedagem** — decisão de publicação
+## Painel de pendências (topo da home)
+17 itens: 3 pendências em aberto (contato institucional, logos oficiais dos financiadores, domínio/hospedagem) + 14 rascunhos com chip "rascunho · revisão". Cada item é clicável e leva ao bloco correspondente.
 
-## Para publicar (quando aprovado)
-1. GitHub Pages (repo novo, branch main, root) — ou hospedagem própria no servidor (nginx, mesmo rito do OBSERVA-RJ)
-2. Remover `noindex` apenas na versão definitiva
-3. Trocar os chips dos financiadores pelos logos oficiais quando chegarem
+## Publicação
+GitHub Pages: https://feresjoao.github.io/inct-id-iced/ (repo `FeresJoao/inct-id-iced`, branch main, root). Remover `noindex` apenas na versão definitiva; trocar os chips dos financiadores pelos logos oficiais quando chegarem.
