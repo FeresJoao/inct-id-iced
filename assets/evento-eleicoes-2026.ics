@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//INCT ID-ICED//Agenda//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:mesa-eleicoes-2026@inct-id-iced
+DTSTAMP:20261017T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261021T190000
+DTEND;TZID=America/Sao_Paulo:20261021T210000
+SUMMARY:INCT ID-ICED — Mesa de debate: Eleições 2026 — o que as urnas já disseram e o que ainda está em jogo
+LOCATION:IESP-UERJ\, Rua da Matriz\, 82 — Botafogo\, Rio de Janeiro-RJ
+DESCRIPTION:Mesa de debate do INCT ID-ICED. Participantes: Lara Mesquita (FGV-EESP)\; Carolina de Paula (LEMEP/IESP-UERJ)\; Leonardo Avritzer (IESP-UERJ)\; João Feres Júnior (IESP-UERJ). Mais em feresjoao.github.io/inct-id-iced/
+URL:https://feresjoao.github.io/inct-id-iced/eventos.html
+END:VEVENT
+END:VCALENDAR
